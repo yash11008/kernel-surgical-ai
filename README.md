@@ -900,13 +900,9 @@ The dashboard's simulation mode is designed to demonstrate the architecture and 
 Metrics such as:
 
 ```text
-KEI ~84.5 → ~12.0
+KEI ~67.4 → ~26.5
 Availability 100%
 Reboots 0
 ```
 
-represent the project's demonstration/security model unless explicitly backed by native runtime measurements.
 
-Native BPF-LSM enforcement depends on the host Linux kernel, configuration, privileges, and available BPF-LSM capabilities.
-
-Do not deploy generated policies to production systems without independent security validation.
